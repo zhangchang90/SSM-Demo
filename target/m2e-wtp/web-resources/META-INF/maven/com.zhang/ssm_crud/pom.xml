@@ -124,12 +124,12 @@
 
 <!-- json -->
 <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
-<dependency>
+<!-- <dependency>
     <groupId>com.fasterxml.jackson.core</groupId>
     <artifactId>jackson-databind</artifactId>
     <version>2.9.9.2</version>
 </dependency>
-
+ -->
 <!--服务器端校验JSR303  -->
 <!-- https://mvnrepository.com/artifact/org.hibernate.validator/hibernate-validator -->
 <dependency>
