@@ -118,6 +118,9 @@ public class EmployeeController {
 		
 		PageHelper.startPage(pn, 5);
 		List<Employee> emps = employeeService.getAll();
+		for (Employee employee : emps) {
+			System.out.println("controller+"+employee);
+		}
 		PageInfo page = new PageInfo(emps,5);
 		
 
